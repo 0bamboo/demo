@@ -46,10 +46,10 @@ const Home: NextPage = () => {
 			<div className={classes.container__left}>
 				<div className={classes.container__up}>
 					<div className={classes.div__logo}>
-						<Image className={classes.img__logo} src={logoImg} alt="this is the logo" height="80em" width="80em" />
+						<Image className={classes.img__logo} src={logoImg} alt="this is the logo" height="90em" width="90em" />
 					</div>
 					<div className={classes.login__button_1}>
-						<Button variant="contained" size="small" startIcon={<LoginIcon />} style={{backgroundColor:"#ff4842 ", borderRadius: "10px", width: "35%", fontSize: "0.7rem"}}>Login</Button>
+						<Button variant="contained" size="small" startIcon={<LoginIcon />} style={{backgroundColor:"#ff4842 ", borderRadius: "10px", letterSpacing: "2px",width: "35%", fontSize: "0.7rem"}}>Login</Button>
 					</div>
 				</div>
 				<div className={classes.div__player}>
@@ -62,7 +62,7 @@ const Home: NextPage = () => {
 						<Image className={classes.image__42} src={pic42} alt="A 42 image " objectFit="cover" layout='fill' />
 					</div>
 					<div className={classes.login__button}>
-						<Button variant="contained" size="medium" startIcon={<LoginIcon />} style={{backgroundColor:"#ff4842 ", borderRadius: "12px", width: "35%", fontSize: "1vw"}}>Login</Button>
+						<Button variant="contained" size="medium" startIcon={<LoginIcon />} style={{backgroundColor:"#ff4842 ", borderRadius: "12px", width: "35%", letterSpacing: "2px", fontSize: "1vw"}}>Login</Button>
 					</div>
 				</div>
 			</div>

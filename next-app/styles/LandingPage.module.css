@@ -1,3 +1,10 @@
+.container {
+	max-width: 2086px;
+	max-height: 1327px;
+	margin: 0;
+	padding: 0;
+}
+
 .container__left {
 	width: 50%;
 	height: 100%;
@@ -17,18 +24,16 @@
 
 .div__logo {
 	position: absolute;
-	padding: 5px 20px;
+	padding: 2px 20px;
 	width: 50%;
 }
 
 .login__button_1 {
 	display: none;
 	position: absolute;
-	margin-top: 29.5px;
-	margin-right: 50px;
+	margin-top: 18px;
+	padding: 20px 0px;
 	width: 50%;
-	/* height: 100%; */
-	/* bottom: 180%; */
 	left: 80%;
 
 }
@@ -52,22 +57,23 @@
 	right: 0;
 }
 
+
+
 .login {
 	position: absolute;
 	top: 28%;
-	left: 50%;
-	right: 50%;
-	width: 70%;
-	height: 70%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
 }
 
 .login__image {
 	max-height: 315px;
 	position: absolute;
-	top: 2%;
-	right: 80%;
+	top: 30%;
+	right: 30%;
 	width: 35%;
-	height: 16vw;
+	height: 30%;
 	overflow: hidden;
 	border-radius: 12px;
 }
@@ -78,14 +84,15 @@
 
 .login__button {
 	position: absolute;
-	top: 40%;
-	right: 15%;
+	top: 62%;
+	left: 35%;
+	right: 0%;
 	width: 100%;
 	
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) or (max-height: 500px) {
 	.container__left {
 		width: 100%;
 	}
