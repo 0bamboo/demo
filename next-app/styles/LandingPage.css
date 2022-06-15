@@ -31,7 +31,7 @@
 .login__button_1 {
 	display: none;
 	position: absolute;
-	margin-top: 18px;
+	margin-top: 16px;
 	padding: 20px 0px;
 	width: 50%;
 	left: 80%;
@@ -92,7 +92,7 @@
 }
 
 
-@media (max-width: 1000px) or (max-height: 500px) {
+@media  (max-width: 1000px) or (max-height: 500px) {
 	.container__left {
 		width: 100%;
 	}
