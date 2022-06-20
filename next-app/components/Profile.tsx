@@ -8,17 +8,18 @@ import { Button, IconButton } from "@mui/material";
 const Profile = () => {
 
 	return (
-		<div className={"parent__container"}>
-			<div className={"sidebar__container"}>
-				<div className={"logo__image"}>
-					<Image src={logo} alt="logo image" width={80} height={80}></Image>
-				</div>
-				<IconButton aria-label="menu" size="large" className={"menu__button"} onClick={() => {alert("MAROUANE TCHAK CHWIYA");}}><MenuIcon fontSize="inherit" style={{color:"white"}} /></IconButton>
-			</div>
-			<div className={"profile__container"}>
+		<>
+			<header>
 
+			</header>
+			<div className="container">
+				<aside className="sidebar">
+				</aside>
+				<main className="content">
+
+				</main>
 			</div>
-		</div>
+		</>
 	)
 }
 
