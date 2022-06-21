@@ -62,6 +62,10 @@ body {
   top: var(--header-height);
 }
 
+/* .sidebar:hover {
+  width: 100px;
+} */
+
 .sidebar .hidden-sidebar {
   opacity: 0;
   width: 0;
@@ -143,6 +147,7 @@ body {
 
 .sidebar-link {
   display: flex;
+  border-radius: 12px;
   width: 100%;
   padding: .5rem 0;
   color: var(--light-gray);
