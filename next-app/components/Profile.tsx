@@ -26,15 +26,15 @@ const Profile = () => {
 						<div className="profile-wall-nav">
 							<div className="profile-btn-div" onClick={() => alert("zaml")}>
 								<div className="svg-div active">
-									<svg xmlns="http://www.w3.org/2000/svg"  className="profile-icon" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" className="profile-icon" viewBox="0 0 16 16"><path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/><path fillRule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/></svg>
 								</div>
-								<div className="hidden-sidebar">Profile</div>
+								<div className="hidden-sidebar">Edit</div>
 							</div>
 							<div className="profile-btn-div">
 								<div className="svg-div">
 								<svg xmlns="http://www.w3.org/2000/svg" className="profile-icon" viewBox="0 0 16 16"><path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path fillRule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/><path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg>
 								</div>
-								<div className="hidden-sidebar">Users</div>
+								<div className="hidden-sidebar">Friends</div>
 							</div>
 							<div className="profile-btn-div">
 								<div className="svg-div">
@@ -71,12 +71,12 @@ const Profile = () => {
 								<div className="friends-label-header"><h4>Friends</h4></div>
 								<div className="list-of-friends">
 									<FriendsCard />
+									{/* <FriendsCard />
 									<FriendsCard />
 									<FriendsCard />
 									<FriendsCard />
 									<FriendsCard />
-									<FriendsCard />
-									<FriendsCard /> 
+									<FriendsCard />  */}
 								</div>
 
 							</div>
