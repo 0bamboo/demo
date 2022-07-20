@@ -407,6 +407,29 @@
 	position: relative;
 }
 
+.history-card {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 85px;
+	overflow: hidden;
+	border-radius: 12px;
+	margin-top: 10px;
+	/* border: 1px solid salmon; */
+	cursor: pointer;
+	background-color: #333d49;
+	position: relative;
+}
+
+.opponent-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
 .friends-card-img {
 	display: flex;
 	width: 60px;
@@ -416,6 +439,25 @@
 	position: relative;
 	right: 10%;
 	border-radius: 50%;
+}
+
+.history-card-img {
+	display: flex;
+	width: 55px;
+	height: 55px;
+	border: 1px solid white;
+	overflow: hidden;
+	position: relative;
+	/* right: 10%; */
+	border-radius: 50%;
+
+}
+
+.score-card {
+	width: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .profile-wall-bg {
@@ -533,6 +575,33 @@
 	color: white;
 	font-size: 2rem;
 	font-weight:300;
+}
+
+.edit-modal {
+	background-color: var(--primary-color);
+	width: 50vw;
+	height: 50vh;
+	max-width: 770px;
+	max-height: 600px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* border: 0.1px solid white; */
+	border-radius: 12px;
+	position: fixed;
+	z-index: 1000;
+
+}
+
+.overlay-modal{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, .6);
+	z-index: 1000;
+
 }
 
 
