@@ -5,7 +5,7 @@ type PortalProps = {
 	children?: ReactNode
 }
 
-const Portal: React.FC<PortalProps>  = ({...children}) => {
+const Portal: React.FC<PortalProps>  = ({children}) => {
 	const [mounted, setMounted] = useState(false)
 
 	useEffect( () => {
