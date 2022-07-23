@@ -1,6 +1,7 @@
 import Image from "next/image";
-import logoImg from "../public/ponglogo.svg"
 import intra from "../public/42.jpg"
+import logoImg from "../public/ponglogo.svg"
+import DropDown from "./DropDown";
 
 const Header = () => {
 	return (
@@ -15,7 +16,7 @@ const Header = () => {
 					</button>
 				</div>
 				<div className="user-container">
-					<Image src={intra} alt="avatar" layout="fill"/>
+					<DropDown />
 				</div>
 			</div>
 		</header>

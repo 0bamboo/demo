@@ -53,10 +53,10 @@
 	cursor: pointer;
 }
 
-.user-container:hover {
+/* .user-container:hover {
 	width: 46px;
 	height: 46px;
-}
+} */
 
 .btn-notification {
 	width: 50px;
@@ -634,6 +634,10 @@
 
 }
 
+/* .MuiMenu-paper {
+} */
+
+/* for mobile modal size: width: 320px height: 400px */
 
 
 
