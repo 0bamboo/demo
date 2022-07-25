@@ -15,7 +15,7 @@ import Image from "next/image"
 import intra from "../public/42.jpg"
 
 
-const DropDown: React.FC = () => {
+const DropDown: React.FC = ({...props}) => {
 	const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 	const open = Boolean(anchorEl);
 	const handleClick = (event: React.MouseEvent<HTMLElement>) => {
@@ -72,7 +72,7 @@ const DropDown: React.FC = () => {
 				anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
 			>
 				<MenuItem autoFocus={false} style={{color: "#919eab",}}>
-					<Avatar /> Profile
+					<Avatar /> {props.userName}
 				</MenuItem>
 				<Divider />
 				<MenuItem  style={{color: "#919eab"}}>
