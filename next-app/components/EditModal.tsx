@@ -138,23 +138,23 @@ const EditModal:React.FC<EditModalProps> = ({closeModal}) => {
 							// 		input: classes.testColor
 							// 	}
 							// }}
-							size="medium"
+							size="small"
 						/>
 					</div>
 					<div className="modal-two-factor">
 						<FormControlLabel
 							label="TWO-FACTOR AUTH"
 							labelPlacement='start'
-							control={<Android12Switch defaultChecked />}
+							control={<Android12Switch />}
 						/>
 					</div>
 				</div>
 				<div className="modal-buttons">
-					<div className='modal-cancel'>
+					{/* <div className='modal-cancel'>
 						<Button variant="contained" size="small" color="secondary">Cancel</Button>
-					</div>
+					</div> */}
 					<div className='modal-submit'>
-						<Button variant='contained' size="small" color='success'>Submit</Button>
+						<Button variant='contained' size="small" color='success'>Confirm</Button>
 					</div>
 					{/* <button onClick={() => closeModal(false)}>Cancel</button> */}
 				</div>
